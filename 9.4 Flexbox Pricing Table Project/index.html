@@ -62,7 +62,7 @@
     }
 
     .plan-button {
-      background-color: #eb4d4b;
+      background-color: #ea07ff;
       border: none;
       color: white;
       padding: 10px 20px;
@@ -72,12 +72,44 @@
     }
 
     .plan-button:hover {
-      background-color: #ff7b7b;
+      background-color: #ff00cc;
     }
 
     .plan-button:focus {
       outline: none;
     }
+
+    /* make the div light up on hover */
+    .plan-button:active {
+      background-color: #0aff3b;
+    }
+
+    /* change the plan title color to blue */
+    .plan-title {
+      color: #9c42e2;
+    }
+
+    /* add a border to the container */
+    .pricing-container {
+      border: 5px solid #9c42e2;
+    }
+
+    /* add a border to the plan */
+    .pricing-plan {
+      border: 5px solid #9c42e2;
+    }
+
+    /* add a border to the plan button */
+    .plan-button {
+      border: 5px solid #9c42e2;
+    }
+
+    /* add a color background to the plan*/
+    .pricing-plan {
+      background-color: #f5eded;
+    }
+
+    /* add a border to the plan button on hover */
 
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
@@ -95,9 +127,9 @@
       <div class="plan-title">Basic</div>
       <div class="plan-price">$9.99/month</div>
       <ul class="plan-features">
-        <li>✅ 10GB Storage</li>
-        <li>✅ 1 User</li>
-        <li>🚫 Support</li>
+        <li>🟢 10GB Storage</li>
+        <li>🟢 1 User</li>
+        <li> 🔴 Support</li>
       </ul>
       <button class="plan-button">Sign Up</a>
     </div>
@@ -105,9 +137,9 @@
       <div class="plan-title">Standard</div>
       <div class="plan-price">$19.99/month</div>
       <ul class="plan-features">
-        <li>✅ 50GB Storage</li>
-        <li>✅ 5 Users</li>
-        <li>✅ Phone &amp; Email Support</li>
+        <li>🟢 50GB Storage</li>
+        <li>🟢 5 Users</li>
+        <li>🟢 Phone &amp; Email Support</li>
       </ul>
       <button class="plan-button">Sign Up</a>
     </div>
@@ -115,9 +147,9 @@
       <div class="plan-title">Premium</div>
       <div class="plan-price">$49.99/month</div>
       <ul class="plan-features">
-        <li>✅ 100GB Storage</li>
-        <li>✅ 10 Users</li>
-        <li>✅ 24/7 Support</li>
+        <li>🟢 100GB Storage</li>
+        <li>🟢 10 Users</li>
+        <li>🟢 24/7 Support</li>
       </ul>
       <button class="plan-button">Sign Up</a>
     </div>
